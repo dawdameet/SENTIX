@@ -1,0 +1,366 @@
+{
+  "users": [
+    {
+      "id": "usr_demo_101",
+      "username": "demo_trader",
+      "email": "demo@example.com",
+      "passwordHash": "$2b$10$iJMtuJV2cCWX1re8p6jZCuJ9qbxLL6hBIUM5JVkImasMmEI.kj7Nq",
+      "createdAt": "2026-10-13T14:16:18.884Z"
+    },
+    {
+      "id": "usr_1791987469208_6qjf",
+      "username": "testuser",
+      "email": "test@example.com",
+      "passwordHash": "$2b$10$/C2nex.gpExlrvfFaYTnwOkkNSqhOa.xYR.NLteIGua5ji1ALL4di",
+      "createdAt": "2026-10-14T14:17:49.208Z"
+    }
+  ],
+  "analyses": [
+    {
+      "id": "anlz_1791988704120_b9nq3",
+      "tweetText": "Persisted tweet for signed in user",
+      "authorHandle": "@user",
+      "sentiment": "NEUTRAL",
+      "confidence": 88,
+      "scores": {
+        "positive": 0.063,
+        "neutral": 0.875,
+        "negative": 0.063
+      },
+      "polarity": 0,
+      "subjectivity": 0,
+      "emotions": [
+        {
+          "name": "Objective / Informative",
+          "score": 0.9
+        }
+      ],
+      "aspects": [],
+      "keywords": [],
+      "provider": "native",
+      "createdAt": "2026-10-14T14:38:24.120Z",
+      "userId": "usr_demo_101"
+    },
+    {
+      "id": "anlz_1791988421706_7f5q8",
+      "tweetText": "i am feeling very happy",
+      "authorHandle": "@user",
+      "sentiment": "POSITIVE",
+      "confidence": 98,
+      "scores": {
+        "positive": 0.98,
+        "neutral": 0.01,
+        "negative": 0.01
+      },
+      "polarity": 1,
+      "subjectivity": 0.75,
+      "emotions": [
+        {
+          "name": "Joy / Excitement",
+          "score": 0.4
+        }
+      ],
+      "aspects": [],
+      "keywords": [
+        {
+          "word": "happy",
+          "impact": "positive"
+        }
+      ],
+      "provider": "native",
+      "createdAt": "2026-10-14T14:33:41.706Z"
+    },
+    {
+      "id": "anlz_1791987893524_ag12r",
+      "tweetText": "Simple and functional, loving this minimal setup!",
+      "authorHandle": "@user",
+      "sentiment": "NEUTRAL",
+      "confidence": 88,
+      "scores": {
+        "positive": 0.063,
+        "neutral": 0.875,
+        "negative": 0.063
+      },
+      "polarity": 0,
+      "subjectivity": 0,
+      "emotions": [
+        {
+          "name": "Objective / Informative",
+          "score": 0.9
+        }
+      ],
+      "aspects": [],
+      "keywords": [],
+      "provider": "native",
+      "createdAt": "2026-10-14T14:24:53.524Z"
+    },
+    {
+      "id": "anlz_1791987427789_38qbh",
+      "tweetText": "System maintenance window is scheduled for tomorrow at 02:00 UTC. Documentation is updated.",
+      "authorHandle": "@ops_bot",
+      "sentiment": "NEUTRAL",
+      "confidence": 88,
+      "scores": {
+        "positive": 0.063,
+        "neutral": 0.875,
+        "negative": 0.063
+      },
+      "polarity": 0,
+      "subjectivity": 0,
+      "emotions": [
+        {
+          "name": "Objective / Informative",
+          "score": 0.9
+        }
+      ],
+      "aspects": [
+        {
+          "aspect": "Features & Updates",
+          "sentiment": "NEUTRAL",
+          "score": 0.84
+        }
+      ],
+      "keywords": [],
+      "provider": "native",
+      "createdAt": "2026-10-14T14:17:07.789Z"
+    },
+    {
+      "id": "anlz_1791987419901_2ad8t",
+      "tweetText": "Customer support is completely unresponsive and the checkout crashed again. Total waste of money 😡",
+      "authorHandle": "@frustrated_user",
+      "sentiment": "NEGATIVE",
+      "confidence": 98,
+      "scores": {
+        "positive": 0.01,
+        "neutral": 0.01,
+        "negative": 0.98
+      },
+      "polarity": -1,
+      "subjectivity": 0.6,
+      "emotions": [
+        {
+          "name": "Frustration / Anger",
+          "score": 0.78
+        }
+      ],
+      "aspects": [
+        {
+          "aspect": "Performance & Speed",
+          "sentiment": "NEGATIVE",
+          "score": 0.93
+        },
+        {
+          "aspect": "Customer Support",
+          "sentiment": "NEGATIVE",
+          "score": 0.93
+        },
+        {
+          "aspect": "Reliability & Stability",
+          "sentiment": "NEGATIVE",
+          "score": 0.93
+        },
+        {
+          "aspect": "Features & Updates",
+          "sentiment": "NEGATIVE",
+          "score": 0.93
+        },
+        {
+          "aspect": "Pricing & Value",
+          "sentiment": "NEGATIVE",
+          "score": 0.93
+        }
+      ],
+      "keywords": [
+        {
+          "word": "😡",
+          "impact": "negative"
+        },
+        {
+          "word": "unresponsive",
+          "impact": "negative"
+        },
+        {
+          "word": "crashed",
+          "impact": "negative"
+        },
+        {
+          "word": "waste",
+          "impact": "negative"
+        }
+      ],
+      "provider": "native",
+      "createdAt": "2026-10-14T14:16:59.901Z"
+    },
+    {
+      "id": "anlz_1791987415172_8c724",
+      "tweetText": "Just tested the new update and its lightning fast and amazing! Best build so far 🚀🔥",
+      "authorHandle": "@tech_fan",
+      "sentiment": "POSITIVE",
+      "confidence": 98,
+      "scores": {
+        "positive": 0.98,
+        "neutral": 0.01,
+        "negative": 0.01
+      },
+      "polarity": 1,
+      "subjectivity": 0.75,
+      "emotions": [
+        {
+          "name": "Joy / Excitement",
+          "score": 0.65
+        },
+        {
+          "name": "Optimism / Hope",
+          "score": 0.25
+        }
+      ],
+      "aspects": [
+        {
+          "aspect": "Performance & Speed",
+          "sentiment": "POSITIVE",
+          "score": 0.93
+        },
+        {
+          "aspect": "UI & UX Design",
+          "sentiment": "POSITIVE",
+          "score": 0.93
+        },
+        {
+          "aspect": "Features & Updates",
+          "sentiment": "POSITIVE",
+          "score": 0.93
+        }
+      ],
+      "keywords": [
+        {
+          "word": "🔥",
+          "impact": "positive"
+        },
+        {
+          "word": "🚀",
+          "impact": "positive"
+        },
+        {
+          "word": "fast",
+          "impact": "positive"
+        },
+        {
+          "word": "amazing!",
+          "impact": "positive"
+        },
+        {
+          "word": "Best",
+          "impact": "positive"
+        }
+      ],
+      "provider": "native",
+      "createdAt": "2026-10-14T14:16:55.172Z"
+    },
+    {
+      "id": "anlz_seed_1",
+      "userId": "usr_demo_101",
+      "tweetText": "Just tested the new ultra-lightweight release and the latency dropped by 70%! Genuinely impressive work by the dev team 🚀",
+      "authorHandle": "@tech_insider",
+      "sentiment": "POSITIVE",
+      "confidence": 96,
+      "scores": {
+        "positive": 0.96,
+        "neutral": 0.03,
+        "negative": 0.01
+      },
+      "polarity": 0.88,
+      "subjectivity": 0.75,
+      "emotions": [
+        {
+          "name": "Joy / Excitement",
+          "score": 0.92
+        },
+        {
+          "name": "Satisfaction",
+          "score": 0.89
+        },
+        {
+          "name": "Surprise",
+          "score": 0.65
+        }
+      ],
+      "aspects": [
+        {
+          "aspect": "Performance / Latency",
+          "sentiment": "POSITIVE",
+          "score": 0.95
+        },
+        {
+          "aspect": "Dev Team",
+          "sentiment": "POSITIVE",
+          "score": 0.9
+        }
+      ],
+      "keywords": [
+        {
+          "word": "impressive",
+          "impact": "positive"
+        },
+        {
+          "word": "latency dropped",
+          "impact": "positive"
+        },
+        {
+          "word": "genuinely",
+          "impact": "positive"
+        }
+      ],
+      "provider": "native",
+      "createdAt": "2026-10-14T12:16:18.886Z"
+    },
+    {
+      "id": "anlz_seed_2",
+      "userId": "usr_demo_101",
+      "tweetText": "Support ticket has been open for 4 days without a single human response. Service is completely stalled.",
+      "authorHandle": "@dev_rant",
+      "sentiment": "NEGATIVE",
+      "confidence": 94,
+      "scores": {
+        "positive": 0.02,
+        "neutral": 0.04,
+        "negative": 0.94
+      },
+      "polarity": -0.85,
+      "subjectivity": 0.82,
+      "emotions": [
+        {
+          "name": "Frustration / Anger",
+          "score": 0.95
+        },
+        {
+          "name": "Disappointment",
+          "score": 0.88
+        }
+      ],
+      "aspects": [
+        {
+          "aspect": "Customer Support",
+          "sentiment": "NEGATIVE",
+          "score": 0.94
+        },
+        {
+          "aspect": "Response Time",
+          "sentiment": "NEGATIVE",
+          "score": 0.91
+        }
+      ],
+      "keywords": [
+        {
+          "word": "stalled",
+          "impact": "negative"
+        },
+        {
+          "word": "without",
+          "impact": "negative"
+        }
+      ],
+      "provider": "native",
+      "createdAt": "2026-10-14T09:16:18.886Z"
+    }
+  ]
+}

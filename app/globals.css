@@ -1,26 +1,74 @@
 @import "tailwindcss";
 
+@custom-variant dark (&:where(.dark, .dark *));
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #fafafa;
+  --foreground: #09090b;
+  --card-bg: #ffffff;
+  --card-border: #e4e4e7;
+  --muted: #71717a;
+}
+
+html.dark {
+  --background: #09090b;
+  --foreground: #f4f4f5;
+  --card-bg: #121215;
+  --card-border: #27272a;
+  --muted: #a1a1aa;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --font-sans: var(--font-geist-sans), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-mono: var(--font-geist-mono), monospace;
 }
 
 body {
-  background: var(--background);
+  background-color: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Custom selection styling - monochrome (no blue) */
+::selection {
+  background-color: #27272a;
+  color: #fafafa;
+}
+
+html.dark ::selection {
+  background-color: #e4e4e7;
+  color: #09090b;
+}
+
+/* Subtle minimal scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #d4d4d8;
+  border-radius: 9999px;
+}
+
+html.dark ::-webkit-scrollbar-thumb {
+  background: #3f3f46;
+}
+
+/* Focus styles - neutral only, strictly no blue or purple */
+*:focus-visible {
+  outline: 2px solid #18181b;
+  outline-offset: 2px;
+}
+
+html.dark *:focus-visible {
+  outline: 2px solid #e4e4e7;
+  outline-offset: 2px;
 }
